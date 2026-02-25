@@ -1,0 +1,42 @@
+# ==============================
+# Visual Studio / .NET Ignore
+# ==============================
+
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncrunch*
+TestResults/
+_ReSharper*/
+
+# Build results
+bin/
+obj/
+
+# Publish folder
+publish/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Rider IDE files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+*.sln.iml
