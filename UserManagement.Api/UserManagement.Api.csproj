@@ -21,7 +21,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Application\Common\Attributes\" />
+    <Folder Include="Application\Common\Constants\" />
+    <Folder Include="Application\Common\Exceptions\" />
+    <Folder Include="Application\Common\Extensions\" />
+    <Folder Include="Application\Common\Interfaces\" />
+    <Folder Include="Application\Common\Models\" />
+    <Folder Include="Application\Common\Services\" />
     <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Domain\Core.Domain.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://www.schemastore.org/aspire-8.0.json" /></VisualStudio></ProjectExtensions>
