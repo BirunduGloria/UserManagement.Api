@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UserManagement.API.Domain.Entities;
-using UserManagement.Application.Interfaces;
 using UserManagement.Application.DTOs;
+using UserManagement.Application.Interfaces;
 
 namespace UserManagement.Application.Services;
 
@@ -16,11 +16,7 @@ public class UserService
 
     public async Task<UserResponse> CreateUserAsync(CreateUserRequest request)
     {
-        var user = new User(
-            request.FirstName,
-            request.LastName,
-            request.Email
-        );
+        var user = new User(request.FirstName, request.LastName, request.Email);
 
         await _context.Users.AddAsync(user);
         await _context.SaveChangesAsync(CancellationToken.None);
@@ -47,4 +43,3 @@ public class UserService
         }).ToList();
     }
 }
-
