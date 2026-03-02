@@ -1,4 +1,4 @@
-﻿namespace UserManagement.Api.Domain
+﻿namespace UserManagement.Domain
 {
     public class GlobalUsing
     {
